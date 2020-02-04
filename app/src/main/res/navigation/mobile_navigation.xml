@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/nav_new_release">
+
+    <fragment
+        android:id="@+id/nav_new_release"
+        android:name="com.krisna.practice.moviecatalogue.ui.new_release.NewRelease"
+        android:label="@string/menu_new_release"
+        tools:layout="@layout/new_release_fragment" />
+
+    <fragment
+        android:id="@+id/nav_movie"
+        android:name="com.krisna.practice.moviecatalogue.ui.movie.MovieFragment"
+        android:label="@string/menu_movie"
+        tools:layout="@layout/movie_fragment" />
+
+    <fragment
+        android:id="@+id/nav_tv_show"
+        android:name="com.krisna.practice.moviecatalogue.ui.tv_show.TvShowFragment"
+        android:label="@string/menu_tvShow"
+        tools:layout="@layout/tv_show_fragment" />
+
+    <activity
+        android:id="@+id/nav_favorite"
+        android:name="com.krisna.practice.moviecatalogue.ui.favorite.FavoriteActivity"
+        android:label="@string/menu_favorite"
+        tools:layout="@layout/favorite_fragment" />
+
+    <fragment
+        android:id="@+id/nav_settings"
+        android:name="com.krisna.practice.moviecatalogue.ui.settings.SettingsFragment"
+        android:label="@string/menu_setting"
+        tools:layout="@layout/settings_fragment" />
+
+</navigation>

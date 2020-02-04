@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="menu_movie">Movie</string>
+    <string name="menu_tvShow">TV Show</string>
+    <string name="menu_favorite">Favorites</string>
+    <string name="menu_setting">Settings</string>
+    <string name="release_date">Release Date</string>
+    <string name="menu_new_release">New Release</string>
+    <string name="overview">Overview</string>
+    <string name="tab_text_1">Movie</string>
+    <string name="tab_text_2">TV Series</string>
+    <string name="rating">Rating</string>
+    <string name="add_to_favorite">Add to Favorite</string>
+    <string name="remove_favorite">Remove From Favorite</string>
+    <string name="success_add_favorite">Data has been added to favorite</string>
+    <string name="success_remove_favorite">Data has been removed from favorite</string>
+    <string name="fail_add_favorite">Data has been failed to add to favorite</string>
+    <string name="fail_remove_favorite">Data has been failed to remove from favorite</string>
+    <string name="favorite_list">Favorite List</string>
+    <string name="empty_text">No Data</string>
+    <string name="appwidget_text">Movie Favorites</string>
+    <string name="daily_reminder">Daily Reminder</string>
+    <string name="enable_daily_reminder">You will be sent daily reminder every xxx o\'clock</string>
+    <string name="daily_reminder_message">Hey, This is the time to see a movie catalogue apps!</string>
+    <string name="cancel_daily_reminder">Daily Reminder Has Been Disabled</string>
+    <string name="cancel_new_release_reminder">New Release Reminder Has Been Disabled</string>
+    <string name="new_release_reminder_message">xxx movies has been released today. Let\'s check this out!</string>
+    <string name="release_today_reminder">Release Today Reminder</string>
+</resources>

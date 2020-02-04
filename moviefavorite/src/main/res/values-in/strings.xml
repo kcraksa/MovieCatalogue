@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="menu_movie">Film</string>
+    <string name="menu_tvShow">Serial TV</string>
+    <string name="menu_favorite">Favorit</string>
+    <string name="menu_setting">Pengaturan</string>
+    <string name="menu_new_release">Baru Rilis</string>
+    <string name="release_date">Tanggal Rilis</string>
+    <string name="overview">Sinopsis</string>
+    <string name="tab_text_1">Film</string>
+    <string name="tab_text_2">Serial TV</string>
+    <string name="rating">Peringkat</string>
+    <string name="add_to_favorite">Tambah ke Favorit</string>
+    <string name="remove_favorite">Hapus Dari Favorit</string>
+    <string name="success_add_favorite">Data berhasil ditambahkan ke favorit</string>
+    <string name="success_remove_favorite">Data berhasil dihapus dari favorit</string>
+    <string name="fail_add_favorite">Data gagal ditambahkan ke favorit</string>
+    <string name="fail_remove_favorite">Data gagal dihapus dari favorit</string>
+    <string name="favorite_list">Daftar Favorit</string>
+    <string name="empty_text">Tidak Ada Data</string>
+    <string name="appwidget_text">Film Favorit</string>
+    <string name="daily_reminder">Pengingat Harian</string>
+    <string name="enable_daily_reminder">Anda akan menerima reminder harian setiap pukul xxx</string>
+    <string name="cancel_daily_reminder">Pengingat Harian Sudah Dinonaktifkan</string>
+    <string name="daily_reminder_message">Hey, Ini sudah waktunya untuk melihat movie catalogue apps!</string>
+    <string name="new_release_reminder_message">xxx film telah dirilis hari ini. Ayo cek!</string>
+    <string name="cancel_new_release_reminder">Reminder rilis film baru sudah dinonaktifkan</string>
+    <string name="release_today_reminder">Pengingat Rilis Hari Ini</string>
+</resources>

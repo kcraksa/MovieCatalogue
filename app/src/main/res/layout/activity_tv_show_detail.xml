@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp">
+
+        <ProgressBar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/progressBarTvShowDetail"
+            android:gravity="center"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:visibility="gone"/>
+
+        <ImageView
+            android:id="@+id/img_detail_tvShow_poster"
+            android:layout_width="100dp"
+            android:layout_height="160dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            tools:srcCompat="@color/colorAccent" />
+
+        <TextView
+            android:id="@+id/tv_title_detail_tvShow"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="26dp"
+            android:textColor="@color/colorPrimary"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toEndOf="@+id/img_detail_tvShow_poster"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            tools:text="Movie Title" />
+
+        <TextView
+            android:id="@+id/tv_rating_label_tvShow_detail"
+            android:layout_width="83dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="26dp"
+            android:layout_marginTop="8dp"
+            android:text="@string/rating"
+            android:textStyle="bold"
+            app:layout_constraintStart_toEndOf="@+id/img_detail_tvShow_poster"
+            app:layout_constraintTop_toBottomOf="@+id/tv_title_detail_tvShow" />
+
+        <TextView
+            android:id="@+id/tv_rating_tvShow_detail"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/tv_rating_label_tvShow_detail"
+            app:layout_constraintTop_toBottomOf="@+id/tv_title_detail_tvShow"
+            tools:text="8.5" />
+
+        <TextView
+            android:id="@+id/tv_releaseDate_label_tvShow_detail"
+            android:layout_width="83dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="26dp"
+            android:layout_marginTop="4dp"
+            android:text="@string/release_date"
+            android:textStyle="bold"
+            app:layout_constraintStart_toEndOf="@+id/img_detail_tvShow_poster"
+            app:layout_constraintTop_toBottomOf="@+id/tv_rating_tvShow_detail" />
+
+        <TextView
+            android:id="@+id/tv_releaseDate_tvShow_detail"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="4dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/tv_releaseDate_label_tvShow_detail"
+            app:layout_constraintTop_toBottomOf="@+id/tv_rating_tvShow_detail"
+            tools:text="28-11-1994" />
+
+        <TextView
+            android:id="@+id/tv_synopsis_label_tvShow_detail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="16dp"
+            android:text="@string/overview"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/img_detail_tvShow_poster"
+            app:layout_constraintVertical_bias="0.113" />
+
+        <TextView
+            android:id="@+id/tv_synopsis_tvShow_detail"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_synopsis_label_tvShow_detail"
+            tools:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. In consequat nisi in nibh fermentum vulputate. Etiam purus sem, interdum sit amet volutpat eu, mollis eget risus. Morbi condimentum purus sapien, sit amet porttitor magna consectetur sed." />
+
+        <Button
+            android:id="@+id/btn_tvShow_favorite"
+            android:layout_width="0dp"
+            android:layout_height="38dp"
+            android:layout_marginTop="26dp"
+            android:layout_marginBottom="20dp"
+            android:background="@android:color/holo_orange_dark"
+            android:text="@string/add_to_favorite"
+            android:textColor="@android:color/white"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_synopsis_tvShow_detail" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>
